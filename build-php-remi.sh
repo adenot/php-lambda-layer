@@ -18,7 +18,7 @@ yum install -y httpd
 yum install -y postgresql-devel
 yum install -y libargon2-devel
 
-yum install -y --disablerepo="*" --enablerepo="remi,remi-php7${PHP_MINOR_VERSION}" php php-mbstring php-pdo php-mysql php-pgsql
+yum install -y --disablerepo="*" --enablerepo="remi,remi-php7${PHP_MINOR_VERSION}" php php-mbstring php-pdo php-mysql php-pgsql php-simplexml
 
 
 mkdir /tmp/layer
